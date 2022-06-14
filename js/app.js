@@ -65,7 +65,7 @@ for (const post of posts) {
   }
   const divImg = document.createElement("div");
   divImg.id = "divImg";
-  divImg.style.background = `url('${post.imgUrl}')`;
+  divImg.style.background = `url('${post.imgUrl}') no-repeat center`;
   divImg.style.backgroundSize = "cover";
   //const img = document.createElement("img");
   //img.src = post.imgUrl;
